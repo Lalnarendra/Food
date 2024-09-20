@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: beige;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: burlywood;
+    /* color: coral; */
+    justify-content: space-between;
+    display: flex;
+}
+header ul{
+    display: flex;
+    margin: 20px;
+
+}
+header ul li{
+    margin: 10px 30px;
+    list-style-type: none;
+    font-size: larger;
+}
+header h1{
+    margin-top: 15px;
+    margin: 15px;
+}
+header h1{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+
+}
+#banner{
+    background-image: url(./images/p_bfc76c62-5243-11ef-baa4-fa6671840db0.png);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.item img{
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+/* .item{
+    width: 400px;
+    background-color: burlywood;
+    
+} */
+ .item{
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+ }
+ h2{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+ }
+ .item .add-to-cart:hover{
+    color: aquamarine;
+    background-color: crimson;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+ }
+ 
